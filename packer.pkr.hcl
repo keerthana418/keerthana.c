@@ -8,8 +8,8 @@ packer {
 }
 
 source "amazon-ebs" "ubuntu" {
- access_key = "AKIAQ6WZWT3KR7FQMSBG"
-  secret_key = "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"
+ access_key = ""
+  secret_key = ""
   ami_name      = "ami-packer-image"
   instance_type = "t2.micro"
   region        = "ap-south-1"
